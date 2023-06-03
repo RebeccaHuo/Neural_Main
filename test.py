@@ -4,7 +4,7 @@ from scipy.special import expit
 import sys
 sys.path.append('..')
 
-from src.MNIST_multi_classification import Neuralnetwork
+from Neural_Network import Neuralnetwork
 
 
 class TestNeuralnetwork(unittest.TestCase):
